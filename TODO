@@ -1,0 +1,13 @@
+
+    [Core]
+        · auto-detect non-op following code and inject ; so
+
+            let ($x = 3) {
+                say $x * 2;
+            }
+
+          works like expected.
+
+        · comments might have to be removed from variable signatures
+
+        · test for empty lists
